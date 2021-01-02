@@ -1,0 +1,36 @@
+.hero {
+    padding-top: 30px;
+    background: url(../img/herobg.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 74px;
+}
+.hero__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__item {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    padding-left: 40px;
+}
+.hero__content {
+    max-width: 582px;
+    margin: 0 auto;
+    text-align: center;
+}
+.hero__mouse {
+    margin: 80px 0 200px;
+}
+.hero__info {
+    display: flex;
+    align-items: center;
+}
+.hero__info img {
+    margin-right: 17px;
+}
+.hero__location {
+    margin-right: 100px;
+}
