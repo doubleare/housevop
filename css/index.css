@@ -1,4 +1,6 @@
 @import './hero.css';
+@import './comfort.css';
+@import './apartments.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
@@ -19,6 +21,12 @@ body {
 .row,
 .flex {
     display: flex;
+}
+.col-6 {
+    width: 48%;
+}
+.text-center {
+    text-align: center;
 }
 
 ul {
